@@ -1,0 +1,307 @@
+@charset "utf-8";
+
+
+
+
+body{
+    background-image: url(https://blog.eseg.edu.br/wp-content/uploads/2022/11/ESEG-PROGRAMA%C3%87%C3%83O-WEB.png);
+    background-size: cover;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Protest Revolution', sans-serif;
+    animation-name: ds4;
+    animation-duration: 10s;
+}
+
+
+.info{
+   background: red;
+   justify-content: center;
+   text-align: center;
+}
+p{
+    background-color: none;
+    /* color: rgba(240, 248, 255, 0.955); */
+    font-family: 'Libre Baskerville', serif;
+}
+
+.pg{
+    border-radius: 90px;
+border: 1px solid rgb(255, 255, 255);
+    margin-top: 20em;
+    transition: 2s;
+    font-size: 1.5em;
+    padding: 2em;
+    display: grid;
+    height: 500%;
+    width: 17%;
+/* background-color: rgba(0, 0, 0, 0.468); */
+color: aliceblue;
+animation-name: ds;
+    animation-duration: 4s;
+
+}
+
+.pg1{
+    border-radius: 90px;
+    border: 1px solid white;
+    margin-top: 20em;
+    transition: 2s;
+    font-size: 1.5em;
+    padding: 2em;
+    display: grid;
+    height: 500%;
+    width: 17%;
+    /* background-color: rgba(0, 0, 0, 0.55); */
+    color: aliceblue;
+    animation-name: ds;
+    animation-duration: 6s;
+}
+
+.pg2{
+    border-radius: 90px;
+    border: 1px solid white;
+    margin-top: 20em;
+    transition: 2s;
+    font-size: 1.5em;
+    padding: 2em;
+    display: grid;
+    height: 500%;
+    width: 17%;
+    color: aliceblue;
+    animation-name: ds;
+    animation-duration: 8s;
+    /* background-color: rgba(0, 0, 0, 0.55); */
+}
+
+.pg3{
+    border-radius: 90px;
+    border: 1px solid white;
+    margin-top: 20em;
+    transition: 2s;
+    font-size: 1.5em;
+    padding: 2em;
+    display: grid;
+    height: 500%;
+    width: 17%;
+    color: aliceblue;
+    /* background-color: rgba(0, 0, 0, 0.55); */
+    animation-name: ds;
+    animation-duration: 10s;
+}
+
+.pg3 p :hover{
+    background-color: red;
+}
+
+.td{
+    margin-bottom: 10em;
+    justify-content: space-around;
+    display: flex;
+}
+
+
+
+.td .pg :hover{
+    background-color: rgba(180, 17, 17, 0);
+    
+}
+
+.td .pg1 :hover{
+    background-color: rgba(255, 3, 3, 0);
+   
+}
+
+.td .pg2 :hover{
+    background-color: rgba(255, 3, 3, 0);
+    
+}
+
+.td .pg3 :hover{
+    background-color: rgba(255, 3, 3, 0);
+    
+}
+
+
+
+
+
+h2:hover{
+background-color:rgba(255, 0, 0, 0);
+}
+
+.td :hover{
+background-color: rgba(0, 0, 0, 0.474);
+}
+
+@keyframes ds {
+
+0%{
+   transform: translateY(-100%);
+}
+
+100%{
+    transform: translateX(0%);
+}
+
+
+}
+
+
+@keyframes ds1 {
+
+    0%{
+       transform: translateY(-100%);
+    }
+    
+    100%{
+        transform: translateX(0%);
+    }
+    
+    
+    }
+
+    @keyframes ds2 {
+
+        0%{
+           transform: translateY(-100%);
+        }
+        
+        100%{
+            transform: translateX(0%);
+        }
+        
+        
+        }
+
+        @keyframes ds3 {
+
+            0%{
+               transform: translateY(-100%);
+            }
+            
+            100%{
+                transform: translateX(0%);
+            }
+            
+            
+            }
+
+
+
+            @keyframes ds4 {
+
+                0%{
+                   transform: translateX(-100%);
+                }
+                
+                100%{
+                    transform: translateX(0%);
+                }
+                
+                
+                }
+
+.info{
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Single Day', cursive;
+    animation-name: dsds;
+    animation-direction: 10s;
+   
+}
+
+
+
+@keyframes dsds{
+0%{
+    transform: translateY(900%);
+}
+
+50%{
+    
+}
+
+100%{
+    transform: translateY(0%);
+}
+
+}
+
+
+.vd{
+    justify-content: space-around;
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: 15em;
+    animation-name: dsds;
+    animation-duration: 3s;
+}
+
+.alerta{
+    margin-top: 10em;
+   justify-content: center;
+   text-align: center;
+}
+
+input{
+    color: rgba(255, 0, 0, 0);
+    transition: 3s;
+ font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+    font-size: 3em;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+input:hover{
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    transition: 3s;
+    height: 100px;
+    width: 200px;
+}
+
+@media all and (max-width:760px){
+
+    .td{
+        display:flex ;
+        flex-direction:column ;
+        width: 100%;
+    }
+    .pg{
+        width: 70%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
